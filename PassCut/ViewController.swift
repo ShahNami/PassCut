@@ -11,6 +11,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBAction func tappedScreen(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string:"prefs:root=SAFARI&path=Passwords")!)
+    }
+    
     override func viewDidAppear(animated: Bool) {
         UIApplication.sharedApplication().openURL(NSURL(string:"prefs:root=SAFARI&path=Passwords")!)
     }
