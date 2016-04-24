@@ -17,19 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PassCut" translatesAutoresizingMaskIntoConstraints="NO" id="oeb-ss-JBL">
-                                <rect key="frame" x="83" y="207" width="154" height="154"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PassCutBg" translatesAutoresizingMaskIntoConstraints="NO" id="f15-S9-Tdt">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="154" id="GHh-qX-kwv"/>
-                                    <constraint firstAttribute="height" constant="154" id="sQv-i3-L68"/>
+                                    <constraint firstAttribute="width" constant="200" id="div-es-Jr6"/>
+                                    <constraint firstAttribute="height" constant="200" id="gmR-2U-coO"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="oeb-ss-JBL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="61E-31-2vD"/>
-                            <constraint firstItem="oeb-ss-JBL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FU6-Dp-gsY"/>
+                            <constraint firstItem="f15-S9-Tdt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jlx-Sr-pVa"/>
+                            <constraint firstItem="f15-S9-Tdt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bxI-5K-wDf"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="MMw-V9-A4T" appends="YES" id="qaW-LJ-tpy"/>
@@ -47,6 +47,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PassCut" width="720" height="720"/>
+        <image name="PassCutBg" width="1024" height="1024"/>
     </resources>
 </document>
